@@ -1,0 +1,31 @@
+{
+  "name": "ebtemplate",
+  "version": "1.0.0",
+  "description": "MERN Template for Elastic Beanstalk",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\"  \"npm run client\""
+  },
+  "author": "Brian Lee",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "morgan": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianlee1597/AWS-ElasticBeanstalk-MERN-Boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brianlee1597/AWS-ElasticBeanstalk-MERN-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/brianlee1597/AWS-ElasticBeanstalk-MERN-Boilerplate#readme"
+}
