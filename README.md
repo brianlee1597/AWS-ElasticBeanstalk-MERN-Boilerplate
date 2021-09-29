@@ -12,3 +12,5 @@ For Starting a Project using this repo:
 For Elastic Beanstalk Deployment:
 
 *In order to see the changes on EB deployment you have to run `npm run build` on client folder after you make changes to the react app and make sure the production build is updated and uploaded on the repo.* 
+
+Use AWS CodePipeline and skip the build process. Then link it to your EB env.
