@@ -1,5 +1,5 @@
 {
-  "name": "ebtemplate",
+  "name": "eb_template_mern",
   "version": "1.0.0",
   "description": "MERN Template for Elastic Beanstalk",
   "main": "app.js",
@@ -19,13 +19,5 @@
     "express": "^4.17.1",
     "mongoose": "^6.0.8",
     "morgan": "^1.10.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brianlee1597/AWS-ElasticBeanstalk-MERN-Boilerplate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/brianlee1597/AWS-ElasticBeanstalk-MERN-Boilerplate/issues"
-  },
-  "homepage": "https://github.com/brianlee1597/AWS-ElasticBeanstalk-MERN-Boilerplate#readme"
+  }
 }
